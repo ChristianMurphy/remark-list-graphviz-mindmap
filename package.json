@@ -4,7 +4,7 @@
   "description": "Generate mindmaps from markdown lists",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "remark --use ./index.js --no-stdout fixtures/*.md"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/ChristianMurphy/remark-list-graphviz-mindmap/issues"
   },
-  "homepage": "https://github.com/ChristianMurphy/remark-list-graphviz-mindmap#readme"
+  "homepage": "https://github.com/ChristianMurphy/remark-list-graphviz-mindmap#readme",
+  "dependencies": {
+    "unist-util-select": "^1.5.0",
+    "unist-util-visit-parents": "^1.1.1"
+  },
+  "devDependencies": {
+    "remark-cli": "^5.0.0"
+  }
 }
