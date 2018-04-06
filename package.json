@@ -1,0 +1,26 @@
+{
+  "name": "remark-list-graphviz-mindmap",
+  "version": "0.0.0",
+  "description": "Generate mindmaps from markdown lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianMurphy/remark-list-graphviz-mindmap.git"
+  },
+  "keywords": [
+    "remark",
+    "markdown",
+    "graphviz",
+    "mindmap",
+    "diagram"
+  ],
+  "author": "Christian Murphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristianMurphy/remark-list-graphviz-mindmap/issues"
+  },
+  "homepage": "https://github.com/ChristianMurphy/remark-list-graphviz-mindmap#readme"
+}
